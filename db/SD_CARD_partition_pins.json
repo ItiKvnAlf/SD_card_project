@@ -1,0 +1,133 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "ledg_export[0]",
+					"strict" : false
+				},
+				{
+					"name" : "ledg_export[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ledg_export[2]",
+					"strict" : false
+				},
+				{
+					"name" : "ledg_export[3]",
+					"strict" : false
+				},
+				{
+					"name" : "ledg_export[4]",
+					"strict" : false
+				},
+				{
+					"name" : "ledg_export[5]",
+					"strict" : false
+				},
+				{
+					"name" : "ledg_export[6]",
+					"strict" : false
+				},
+				{
+					"name" : "ledg_export[7]",
+					"strict" : false
+				},
+				{
+					"name" : "ledr_export[0]",
+					"strict" : false
+				},
+				{
+					"name" : "ledr_export[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ledr_export[2]",
+					"strict" : false
+				},
+				{
+					"name" : "ledr_export[3]",
+					"strict" : false
+				},
+				{
+					"name" : "ledr_export[4]",
+					"strict" : false
+				},
+				{
+					"name" : "ledr_export[5]",
+					"strict" : false
+				},
+				{
+					"name" : "ledr_export[6]",
+					"strict" : false
+				},
+				{
+					"name" : "ledr_export[7]",
+					"strict" : false
+				},
+				{
+					"name" : "ledr_export[8]",
+					"strict" : false
+				},
+				{
+					"name" : "ledr_export[9]",
+					"strict" : false
+				},
+				{
+					"name" : "sd_clk_export",
+					"strict" : false
+				},
+				{
+					"name" : "sd_cmd_export",
+					"strict" : false
+				},
+				{
+					"name" : "sd_dat_export[0]",
+					"strict" : false
+				},
+				{
+					"name" : "sd_dat_export[1]",
+					"strict" : false
+				},
+				{
+					"name" : "sd_dat_export[2]",
+					"strict" : false
+				},
+				{
+					"name" : "sd_dat_export[3]",
+					"strict" : false
+				},
+				{
+					"name" : "clk_clk",
+					"strict" : false
+				},
+				{
+					"name" : "reset_reset_n",
+					"strict" : false
+				},
+				{
+					"name" : "key_export[0]",
+					"strict" : false
+				},
+				{
+					"name" : "cpu_reset_n_export",
+					"strict" : false
+				},
+				{
+					"name" : "key_export[1]",
+					"strict" : false
+				},
+				{
+					"name" : "key_export[2]",
+					"strict" : false
+				},
+				{
+					"name" : "key_export[3]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

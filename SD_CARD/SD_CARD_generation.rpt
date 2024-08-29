@@ -1,0 +1,205 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate E:\UCN\CapstoneProject\SD_CARD\SD_CARD.qsys --block-symbol-file --output-directory=E:\UCN\CapstoneProject\SD_CARD\SD_CARD --family="Cyclone V" --part=5CGXFC5C6F27C7
+Progress: Loading SD_CARD/SD_CARD.qsys
+Progress: Reading input file
+Progress: Adding clk_0 [clock_source 23.1]
+Progress: Parameterizing module clk_0
+Progress: Adding cpu [altera_nios2_gen2 23.1]
+Progress: Parameterizing module cpu
+Progress: Adding cpu_reset_n [altera_avalon_pio 23.1]
+Progress: Parameterizing module cpu_reset_n
+Progress: Adding jtag_uart [altera_avalon_jtag_uart 23.1]
+Progress: Parameterizing module jtag_uart
+Progress: Adding key [altera_avalon_pio 23.1]
+Progress: Parameterizing module key
+Progress: Adding ledg [altera_avalon_pio 23.1]
+Progress: Parameterizing module ledg
+Progress: Adding ledr [altera_avalon_pio 23.1]
+Progress: Parameterizing module ledr
+Progress: Adding mm_clock_crossing_bridge [altera_avalon_mm_clock_crossing_bridge 23.1]
+Progress: Parameterizing module mm_clock_crossing_bridge
+Progress: Adding onchip_memory [altera_avalon_onchip_memory2 23.1]
+Progress: Parameterizing module onchip_memory
+Progress: Adding pll_100 [altera_pll 23.1]
+Progress: Parameterizing module pll_100
+Progress: Adding sd_clk [altera_avalon_pio 23.1]
+Progress: Parameterizing module sd_clk
+Progress: Adding sd_cmd [altera_avalon_pio 23.1]
+Progress: Parameterizing module sd_cmd
+Progress: Adding sd_dat [altera_avalon_pio 23.1]
+Progress: Parameterizing module sd_dat
+Progress: Adding timer_0 [altera_avalon_timer 23.1]
+Progress: Parameterizing module timer_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Warning: SD_CARD.cpu: Nios II cores are not recommended for new projects and are subject to removal in a future release. Nios V cores are the recommended replacement as applicable.
+Info: SD_CARD.cpu_reset_n: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: SD_CARD.jtag_uart: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Info: SD_CARD.key: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: SD_CARD.pll_100: The legal reference clock frequency is 5.0 MHz..700.0 MHz
+Info: SD_CARD.pll_100: Able to implement PLL with user settings
+Info: SD_CARD.sd_cmd: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: SD_CARD.sd_dat: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate E:\UCN\CapstoneProject\SD_CARD\SD_CARD.qsys --synthesis=VERILOG --output-directory=E:\UCN\CapstoneProject\SD_CARD\SD_CARD\synthesis --family="Cyclone V" --part=5CGXFC5C6F27C7
+Progress: Loading SD_CARD/SD_CARD.qsys
+Progress: Reading input file
+Progress: Adding clk_0 [clock_source 23.1]
+Progress: Parameterizing module clk_0
+Progress: Adding cpu [altera_nios2_gen2 23.1]
+Progress: Parameterizing module cpu
+Progress: Adding cpu_reset_n [altera_avalon_pio 23.1]
+Progress: Parameterizing module cpu_reset_n
+Progress: Adding jtag_uart [altera_avalon_jtag_uart 23.1]
+Progress: Parameterizing module jtag_uart
+Progress: Adding key [altera_avalon_pio 23.1]
+Progress: Parameterizing module key
+Progress: Adding ledg [altera_avalon_pio 23.1]
+Progress: Parameterizing module ledg
+Progress: Adding ledr [altera_avalon_pio 23.1]
+Progress: Parameterizing module ledr
+Progress: Adding mm_clock_crossing_bridge [altera_avalon_mm_clock_crossing_bridge 23.1]
+Progress: Parameterizing module mm_clock_crossing_bridge
+Progress: Adding onchip_memory [altera_avalon_onchip_memory2 23.1]
+Progress: Parameterizing module onchip_memory
+Progress: Adding pll_100 [altera_pll 23.1]
+Progress: Parameterizing module pll_100
+Progress: Adding sd_clk [altera_avalon_pio 23.1]
+Progress: Parameterizing module sd_clk
+Progress: Adding sd_cmd [altera_avalon_pio 23.1]
+Progress: Parameterizing module sd_cmd
+Progress: Adding sd_dat [altera_avalon_pio 23.1]
+Progress: Parameterizing module sd_dat
+Progress: Adding timer_0 [altera_avalon_timer 23.1]
+Progress: Parameterizing module timer_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Warning: SD_CARD.cpu: Nios II cores are not recommended for new projects and are subject to removal in a future release. Nios V cores are the recommended replacement as applicable.
+Info: SD_CARD.cpu_reset_n: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: SD_CARD.jtag_uart: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Info: SD_CARD.key: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: SD_CARD.pll_100: The legal reference clock frequency is 5.0 MHz..700.0 MHz
+Info: SD_CARD.pll_100: Able to implement PLL with user settings
+Info: SD_CARD.sd_cmd: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: SD_CARD.sd_dat: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: SD_CARD: Generating SD_CARD "SD_CARD" for QUARTUS_SYNTH
+Info: Inserting clock-crossing logic between cmd_demux.src0 and cmd_mux.sink0
+Info: Inserting clock-crossing logic between cmd_demux_001.src0 and cmd_mux.sink1
+Info: Inserting clock-crossing logic between rsp_demux.src0 and rsp_mux.sink0
+Info: Inserting clock-crossing logic between rsp_demux.src1 and rsp_mux_001.sink0
+Info: cpu: "SD_CARD" instantiated altera_nios2_gen2 "cpu"
+Info: cpu_reset_n: Starting RTL generation for module 'SD_CARD_cpu_reset_n'
+Info: cpu_reset_n:   Generation command is [exec cmd /c {set LC_ALL=C&& E:/ucn/capstoneproject/quartusprimelite/quartus/bin64/perl/bin/perl.exe -I E:/ucn/capstoneproject/quartusprimelite/quartus/bin64/perl/lib -I E:/ucn/capstoneproject/quartusprimelite/quartus/sopc_builder/bin/europa -I E:/ucn/capstoneproject/quartusprimelite/quartus/sopc_builder/bin -I E:/ucn/capstoneproject/quartusprimelite/quartus/../ip/altera/sopc_builder_ip/common -I E:/ucn/capstoneproject/quartusprimelite/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- E:/ucn/capstoneproject/quartusprimelite/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=SD_CARD_cpu_reset_n --dir=C:/Users/Kevin/AppData/Local/Temp/alt9958_5573166852888058721.dir/0002_cpu_reset_n_gen/ --quartus_dir=E:/ucn/capstoneproject/quartusprimelite/quartus --verilog --config=C:/Users/Kevin/AppData/Local/Temp/alt9958_5573166852888058721.dir/0002_cpu_reset_n_gen//SD_CARD_cpu_reset_n_component_configuration.pl --do_build_sim=0}]
+Info: cpu_reset_n: Done RTL generation for module 'SD_CARD_cpu_reset_n'
+Info: cpu_reset_n: "SD_CARD" instantiated altera_avalon_pio "cpu_reset_n"
+Info: jtag_uart: Starting RTL generation for module 'SD_CARD_jtag_uart'
+Info: jtag_uart:   Generation command is [exec cmd /c {set LC_ALL=C&& E:/ucn/capstoneproject/quartusprimelite/quartus/bin64/perl/bin/perl.exe -I E:/ucn/capstoneproject/quartusprimelite/quartus/bin64/perl/lib -I E:/ucn/capstoneproject/quartusprimelite/quartus/sopc_builder/bin/europa -I E:/ucn/capstoneproject/quartusprimelite/quartus/sopc_builder/bin -I E:/ucn/capstoneproject/quartusprimelite/quartus/../ip/altera/sopc_builder_ip/common -I E:/ucn/capstoneproject/quartusprimelite/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart -- E:/ucn/capstoneproject/quartusprimelite/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart/generate_rtl.pl --name=SD_CARD_jtag_uart --dir=C:/Users/Kevin/AppData/Local/Temp/alt9958_5573166852888058721.dir/0003_jtag_uart_gen/ --quartus_dir=E:/ucn/capstoneproject/quartusprimelite/quartus --verilog --config=C:/Users/Kevin/AppData/Local/Temp/alt9958_5573166852888058721.dir/0003_jtag_uart_gen//SD_CARD_jtag_uart_component_configuration.pl --do_build_sim=0}]
+Info: jtag_uart: Done RTL generation for module 'SD_CARD_jtag_uart'
+Info: jtag_uart: "SD_CARD" instantiated altera_avalon_jtag_uart "jtag_uart"
+Info: key: Starting RTL generation for module 'SD_CARD_key'
+Info: key:   Generation command is [exec cmd /c {set LC_ALL=C&& E:/ucn/capstoneproject/quartusprimelite/quartus/bin64/perl/bin/perl.exe -I E:/ucn/capstoneproject/quartusprimelite/quartus/bin64/perl/lib -I E:/ucn/capstoneproject/quartusprimelite/quartus/sopc_builder/bin/europa -I E:/ucn/capstoneproject/quartusprimelite/quartus/sopc_builder/bin -I E:/ucn/capstoneproject/quartusprimelite/quartus/../ip/altera/sopc_builder_ip/common -I E:/ucn/capstoneproject/quartusprimelite/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- E:/ucn/capstoneproject/quartusprimelite/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=SD_CARD_key --dir=C:/Users/Kevin/AppData/Local/Temp/alt9958_5573166852888058721.dir/0004_key_gen/ --quartus_dir=E:/ucn/capstoneproject/quartusprimelite/quartus --verilog --config=C:/Users/Kevin/AppData/Local/Temp/alt9958_5573166852888058721.dir/0004_key_gen//SD_CARD_key_component_configuration.pl --do_build_sim=0}]
+Info: key: Done RTL generation for module 'SD_CARD_key'
+Info: key: "SD_CARD" instantiated altera_avalon_pio "key"
+Info: ledg: Starting RTL generation for module 'SD_CARD_ledg'
+Info: ledg:   Generation command is [exec cmd /c {set LC_ALL=C&& E:/ucn/capstoneproject/quartusprimelite/quartus/bin64/perl/bin/perl.exe -I E:/ucn/capstoneproject/quartusprimelite/quartus/bin64/perl/lib -I E:/ucn/capstoneproject/quartusprimelite/quartus/sopc_builder/bin/europa -I E:/ucn/capstoneproject/quartusprimelite/quartus/sopc_builder/bin -I E:/ucn/capstoneproject/quartusprimelite/quartus/../ip/altera/sopc_builder_ip/common -I E:/ucn/capstoneproject/quartusprimelite/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- E:/ucn/capstoneproject/quartusprimelite/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=SD_CARD_ledg --dir=C:/Users/Kevin/AppData/Local/Temp/alt9958_5573166852888058721.dir/0005_ledg_gen/ --quartus_dir=E:/ucn/capstoneproject/quartusprimelite/quartus --verilog --config=C:/Users/Kevin/AppData/Local/Temp/alt9958_5573166852888058721.dir/0005_ledg_gen//SD_CARD_ledg_component_configuration.pl --do_build_sim=0}]
+Info: ledg: Done RTL generation for module 'SD_CARD_ledg'
+Info: ledg: "SD_CARD" instantiated altera_avalon_pio "ledg"
+Info: ledr: Starting RTL generation for module 'SD_CARD_ledr'
+Info: ledr:   Generation command is [exec cmd /c {set LC_ALL=C&& E:/ucn/capstoneproject/quartusprimelite/quartus/bin64/perl/bin/perl.exe -I E:/ucn/capstoneproject/quartusprimelite/quartus/bin64/perl/lib -I E:/ucn/capstoneproject/quartusprimelite/quartus/sopc_builder/bin/europa -I E:/ucn/capstoneproject/quartusprimelite/quartus/sopc_builder/bin -I E:/ucn/capstoneproject/quartusprimelite/quartus/../ip/altera/sopc_builder_ip/common -I E:/ucn/capstoneproject/quartusprimelite/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- E:/ucn/capstoneproject/quartusprimelite/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=SD_CARD_ledr --dir=C:/Users/Kevin/AppData/Local/Temp/alt9958_5573166852888058721.dir/0006_ledr_gen/ --quartus_dir=E:/ucn/capstoneproject/quartusprimelite/quartus --verilog --config=C:/Users/Kevin/AppData/Local/Temp/alt9958_5573166852888058721.dir/0006_ledr_gen//SD_CARD_ledr_component_configuration.pl --do_build_sim=0}]
+Info: ledr: Done RTL generation for module 'SD_CARD_ledr'
+Info: ledr: "SD_CARD" instantiated altera_avalon_pio "ledr"
+Info: mm_clock_crossing_bridge: "SD_CARD" instantiated altera_avalon_mm_clock_crossing_bridge "mm_clock_crossing_bridge"
+Info: onchip_memory: Starting RTL generation for module 'SD_CARD_onchip_memory'
+Info: onchip_memory:   Generation command is [exec cmd /c {set LC_ALL=C&& E:/ucn/capstoneproject/quartusprimelite/quartus/bin64/perl/bin/perl.exe -I E:/ucn/capstoneproject/quartusprimelite/quartus/bin64/perl/lib -I E:/ucn/capstoneproject/quartusprimelite/quartus/sopc_builder/bin/europa -I E:/ucn/capstoneproject/quartusprimelite/quartus/sopc_builder/bin -I E:/ucn/capstoneproject/quartusprimelite/quartus/../ip/altera/sopc_builder_ip/common -I E:/ucn/capstoneproject/quartusprimelite/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- E:/ucn/capstoneproject/quartusprimelite/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=SD_CARD_onchip_memory --dir=C:/Users/Kevin/AppData/Local/Temp/alt9958_5573166852888058721.dir/0008_onchip_memory_gen/ --quartus_dir=E:/ucn/capstoneproject/quartusprimelite/quartus --verilog --config=C:/Users/Kevin/AppData/Local/Temp/alt9958_5573166852888058721.dir/0008_onchip_memory_gen//SD_CARD_onchip_memory_component_configuration.pl --do_build_sim=0}]
+Info: onchip_memory: Done RTL generation for module 'SD_CARD_onchip_memory'
+Info: onchip_memory: "SD_CARD" instantiated altera_avalon_onchip_memory2 "onchip_memory"
+Info: pll_100: "SD_CARD" instantiated altera_pll "pll_100"
+Info: sd_clk: Starting RTL generation for module 'SD_CARD_sd_clk'
+Info: sd_clk:   Generation command is [exec cmd /c {set LC_ALL=C&& E:/ucn/capstoneproject/quartusprimelite/quartus/bin64/perl/bin/perl.exe -I E:/ucn/capstoneproject/quartusprimelite/quartus/bin64/perl/lib -I E:/ucn/capstoneproject/quartusprimelite/quartus/sopc_builder/bin/europa -I E:/ucn/capstoneproject/quartusprimelite/quartus/sopc_builder/bin -I E:/ucn/capstoneproject/quartusprimelite/quartus/../ip/altera/sopc_builder_ip/common -I E:/ucn/capstoneproject/quartusprimelite/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- E:/ucn/capstoneproject/quartusprimelite/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=SD_CARD_sd_clk --dir=C:/Users/Kevin/AppData/Local/Temp/alt9958_5573166852888058721.dir/0010_sd_clk_gen/ --quartus_dir=E:/ucn/capstoneproject/quartusprimelite/quartus --verilog --config=C:/Users/Kevin/AppData/Local/Temp/alt9958_5573166852888058721.dir/0010_sd_clk_gen//SD_CARD_sd_clk_component_configuration.pl --do_build_sim=0}]
+Info: sd_clk: Done RTL generation for module 'SD_CARD_sd_clk'
+Info: sd_clk: "SD_CARD" instantiated altera_avalon_pio "sd_clk"
+Info: sd_cmd: Starting RTL generation for module 'SD_CARD_sd_cmd'
+Info: sd_cmd:   Generation command is [exec cmd /c {set LC_ALL=C&& E:/ucn/capstoneproject/quartusprimelite/quartus/bin64/perl/bin/perl.exe -I E:/ucn/capstoneproject/quartusprimelite/quartus/bin64/perl/lib -I E:/ucn/capstoneproject/quartusprimelite/quartus/sopc_builder/bin/europa -I E:/ucn/capstoneproject/quartusprimelite/quartus/sopc_builder/bin -I E:/ucn/capstoneproject/quartusprimelite/quartus/../ip/altera/sopc_builder_ip/common -I E:/ucn/capstoneproject/quartusprimelite/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- E:/ucn/capstoneproject/quartusprimelite/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=SD_CARD_sd_cmd --dir=C:/Users/Kevin/AppData/Local/Temp/alt9958_5573166852888058721.dir/0011_sd_cmd_gen/ --quartus_dir=E:/ucn/capstoneproject/quartusprimelite/quartus --verilog --config=C:/Users/Kevin/AppData/Local/Temp/alt9958_5573166852888058721.dir/0011_sd_cmd_gen//SD_CARD_sd_cmd_component_configuration.pl --do_build_sim=0}]
+Info: sd_cmd: Done RTL generation for module 'SD_CARD_sd_cmd'
+Info: sd_cmd: "SD_CARD" instantiated altera_avalon_pio "sd_cmd"
+Info: sd_dat: Starting RTL generation for module 'SD_CARD_sd_dat'
+Info: sd_dat:   Generation command is [exec cmd /c {set LC_ALL=C&& E:/ucn/capstoneproject/quartusprimelite/quartus/bin64/perl/bin/perl.exe -I E:/ucn/capstoneproject/quartusprimelite/quartus/bin64/perl/lib -I E:/ucn/capstoneproject/quartusprimelite/quartus/sopc_builder/bin/europa -I E:/ucn/capstoneproject/quartusprimelite/quartus/sopc_builder/bin -I E:/ucn/capstoneproject/quartusprimelite/quartus/../ip/altera/sopc_builder_ip/common -I E:/ucn/capstoneproject/quartusprimelite/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- E:/ucn/capstoneproject/quartusprimelite/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=SD_CARD_sd_dat --dir=C:/Users/Kevin/AppData/Local/Temp/alt9958_5573166852888058721.dir/0012_sd_dat_gen/ --quartus_dir=E:/ucn/capstoneproject/quartusprimelite/quartus --verilog --config=C:/Users/Kevin/AppData/Local/Temp/alt9958_5573166852888058721.dir/0012_sd_dat_gen//SD_CARD_sd_dat_component_configuration.pl --do_build_sim=0}]
+Info: sd_dat: Done RTL generation for module 'SD_CARD_sd_dat'
+Info: sd_dat: "SD_CARD" instantiated altera_avalon_pio "sd_dat"
+Info: timer_0: Starting RTL generation for module 'SD_CARD_timer_0'
+Info: timer_0:   Generation command is [exec cmd /c {set LC_ALL=C&& E:/UCN/CapstoneProject/QuartusPrimeLite/quartus/bin64//perl/bin/perl.exe -I E:/UCN/CapstoneProject/QuartusPrimeLite/quartus/bin64//perl/lib -I E:/ucn/capstoneproject/quartusprimelite/quartus/sopc_builder/bin/europa -I E:/ucn/capstoneproject/quartusprimelite/quartus/sopc_builder/bin -I E:/ucn/capstoneproject/quartusprimelite/quartus/../ip/altera/sopc_builder_ip/common -I E:/ucn/capstoneproject/quartusprimelite/quartus/../ip/altera/sopc_builder_ip/altera_avalon_timer -- E:/ucn/capstoneproject/quartusprimelite/quartus/../ip/altera/sopc_builder_ip/altera_avalon_timer/generate_rtl.pl --name=SD_CARD_timer_0 --dir=C:/Users/Kevin/AppData/Local/Temp/alt9958_5573166852888058721.dir/0013_timer_0_gen/ --quartus_dir=E:/ucn/capstoneproject/quartusprimelite/quartus --verilog --config=C:/Users/Kevin/AppData/Local/Temp/alt9958_5573166852888058721.dir/0013_timer_0_gen//SD_CARD_timer_0_component_configuration.pl --do_build_sim=0}]
+Info: timer_0: Done RTL generation for module 'SD_CARD_timer_0'
+Info: timer_0: "SD_CARD" instantiated altera_avalon_timer "timer_0"
+Info: avalon_st_adapter: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_001: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_002: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_003: Inserting error_adapter: error_adapter_0
+Info: mm_interconnect_0: "SD_CARD" instantiated altera_mm_interconnect "mm_interconnect_0"
+Info: avalon_st_adapter: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_001: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_002: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_003: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_004: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_005: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_006: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_007: Inserting error_adapter: error_adapter_0
+Info: mm_interconnect_1: "SD_CARD" instantiated altera_mm_interconnect "mm_interconnect_1"
+Info: irq_mapper: "SD_CARD" instantiated altera_irq_mapper "irq_mapper"
+Info: irq_synchronizer: "SD_CARD" instantiated altera_irq_clock_crosser "irq_synchronizer"
+Info: rst_controller: "SD_CARD" instantiated altera_reset_controller "rst_controller"
+Info: cpu: Starting RTL generation for module 'SD_CARD_cpu_cpu'
+Info: cpu:   Generation command is [exec E:/UCN/CapstoneProject/QuartusPrimeLite/quartus/bin64//perl/bin/perl.exe -I E:/UCN/CapstoneProject/QuartusPrimeLite/quartus/bin64//perl/lib -I E:/ucn/capstoneproject/quartusprimelite/quartus/sopc_builder/bin/europa -I E:/ucn/capstoneproject/quartusprimelite/quartus/sopc_builder/bin -I E:/ucn/capstoneproject/quartusprimelite/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/cpu_lib -I E:/ucn/capstoneproject/quartusprimelite/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/nios_lib -I E:/ucn/capstoneproject/quartusprimelite/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -I E:/ucn/capstoneproject/quartusprimelite/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -- E:/ucn/capstoneproject/quartusprimelite/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/generate_rtl.pl --name=SD_CARD_cpu_cpu --dir=C:/Users/Kevin/AppData/Local/Temp/alt9958_5573166852888058721.dir/0017_cpu_gen/ --quartus_bindir=E:/UCN/CapstoneProject/QuartusPrimeLite/quartus/bin64/ --verilog --config=C:/Users/Kevin/AppData/Local/Temp/alt9958_5573166852888058721.dir/0017_cpu_gen//SD_CARD_cpu_cpu_processor_configuration.pl  --do_build_sim=0  ]
+Info: cpu: # 2024.08.23 15:02:43 (*) Starting Nios II generation
+Info: cpu: # 2024.08.23 15:02:43 (*)   Elaborating CPU configuration settings
+Info: cpu: # 2024.08.23 15:02:43 (*)   Creating all objects for CPU
+Info: cpu: # 2024.08.23 15:02:44 (*)   Generating RTL from CPU objects
+Info: cpu: # 2024.08.23 15:02:44 (*)   Creating plain-text RTL
+Info: cpu: # 2024.08.23 15:02:44 (*) Done Nios II generation
+Info: cpu: Done RTL generation for module 'SD_CARD_cpu_cpu'
+Info: cpu: "cpu" instantiated altera_nios2_gen2_unit "cpu"
+Info: cpu_data_master_translator: "mm_interconnect_0" instantiated altera_merlin_master_translator "cpu_data_master_translator"
+Info: jtag_uart_avalon_jtag_slave_translator: "mm_interconnect_0" instantiated altera_merlin_slave_translator "jtag_uart_avalon_jtag_slave_translator"
+Info: cpu_data_master_agent: "mm_interconnect_0" instantiated altera_merlin_master_agent "cpu_data_master_agent"
+Info: jtag_uart_avalon_jtag_slave_agent: "mm_interconnect_0" instantiated altera_merlin_slave_agent "jtag_uart_avalon_jtag_slave_agent"
+Info: jtag_uart_avalon_jtag_slave_agent_rsp_fifo: "mm_interconnect_0" instantiated altera_avalon_sc_fifo "jtag_uart_avalon_jtag_slave_agent_rsp_fifo"
+Info: router: "mm_interconnect_0" instantiated altera_merlin_router "router"
+Info: router_001: "mm_interconnect_0" instantiated altera_merlin_router "router_001"
+Info: router_002: "mm_interconnect_0" instantiated altera_merlin_router "router_002"
+Info: router_004: "mm_interconnect_0" instantiated altera_merlin_router "router_004"
+Info: cmd_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux"
+Info: cmd_demux_001: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux_001"
+Info: cmd_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux"
+Info: cmd_mux_002: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux_002"
+Info: Reusing file E:/UCN/CapstoneProject/SD_CARD/SD_CARD/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux"
+Info: rsp_demux_001: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux_001"
+Info: rsp_demux_002: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux_002"
+Info: rsp_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux"
+Info: Reusing file E:/UCN/CapstoneProject/SD_CARD/SD_CARD/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_mux_001: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux_001"
+Info: Reusing file E:/UCN/CapstoneProject/SD_CARD/SD_CARD/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: crosser: "mm_interconnect_0" instantiated altera_avalon_st_handshake_clock_crosser "crosser"
+Info: Reusing file E:/UCN/CapstoneProject/SD_CARD/SD_CARD/synthesis/submodules/altera_std_synchronizer_nocut.v
+Info: avalon_st_adapter: "mm_interconnect_0" instantiated altera_avalon_st_adapter "avalon_st_adapter"
+Info: router: "mm_interconnect_1" instantiated altera_merlin_router "router"
+Info: router_001: "mm_interconnect_1" instantiated altera_merlin_router "router_001"
+Info: mm_clock_crossing_bridge_m0_limiter: "mm_interconnect_1" instantiated altera_merlin_traffic_limiter "mm_clock_crossing_bridge_m0_limiter"
+Info: Reusing file E:/UCN/CapstoneProject/SD_CARD/SD_CARD/synthesis/submodules/altera_avalon_sc_fifo.v
+Info: Reusing file E:/UCN/CapstoneProject/SD_CARD/SD_CARD/synthesis/submodules/altera_avalon_st_pipeline_base.v
+Info: cmd_demux: "mm_interconnect_1" instantiated altera_merlin_demultiplexer "cmd_demux"
+Info: cmd_mux: "mm_interconnect_1" instantiated altera_merlin_multiplexer "cmd_mux"
+Info: Reusing file E:/UCN/CapstoneProject/SD_CARD/SD_CARD/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_demux: "mm_interconnect_1" instantiated altera_merlin_demultiplexer "rsp_demux"
+Info: rsp_mux: "mm_interconnect_1" instantiated altera_merlin_multiplexer "rsp_mux"
+Info: Reusing file E:/UCN/CapstoneProject/SD_CARD/SD_CARD/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: error_adapter_0: "avalon_st_adapter" instantiated error_adapter "error_adapter_0"
+Info: SD_CARD: Done "SD_CARD" with 48 modules, 70 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis
